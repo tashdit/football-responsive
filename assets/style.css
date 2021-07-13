@@ -70,12 +70,11 @@ a{
 
 /* Card-Style */
 
-.card-section{
-    margin-top:50px;
+.margin-top{
+    margin-top:80px;
 }
 
 .card-wrapper{
-    height: 500px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2em;
@@ -104,3 +103,18 @@ a{
     font-size: 16px;
     line-height: 26px;
 }
+
+
+
+.about h1{
+    margin: 0;
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+}
+
+.about  p{
+   color: #6C6C6C;
+   margin-bottom: 35px;
+}
+
