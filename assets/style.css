@@ -1,0 +1,106 @@
+/* google-fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Reactangle-css */
+
+.banner{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 677px;
+    background: #2D25A0;
+}
+
+
+.banner-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-left {
+    width: 35%;
+}
+
+
+.banner-left h1{
+    color: #fff;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 80px;
+    font-family: 'Poppins';
+}
+
+.banner-left span{
+    padding: 10px 24px;
+    background: #E02C6D;
+}
+
+.banner-left span a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    
+}
+
+
+
+.banner-right img{
+    width: 556px;
+    height: 438px;
+}
+
+
+/* Card-Style */
+
+.card-section{
+    margin-top:50px;
+}
+
+.card-wrapper{
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+}
+
+
+.card{
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+}
+
+.card-img img{
+    width: 100%;
+}
+
+.card h2{
+    color: #18191F;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.card p{
+    color:  #6C6C6C;
+    font-size: 16px;
+    line-height: 26px;
+}
