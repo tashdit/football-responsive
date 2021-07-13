@@ -60,6 +60,11 @@ a{
     
 }
 
+.banner-left span i{
+    color: #fff;
+    margin-left: 15px;
+}
+
 
 
 .banner-right img{
@@ -118,3 +123,30 @@ a{
    margin-bottom: 36px;
 }
 
+
+/* Footer-css */
+
+
+.footer-item {
+    text-align: center;
+}
+
+.footer-item img{
+    height: 100px;
+    width: 400px;
+}
+
+
+
+.social-icon span i{
+    background: #969BAB;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
+
+.footer-item p{
+    color: #000000;
+    font-size:18px;
+    line-height: 24px;
+}
