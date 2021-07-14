@@ -297,6 +297,11 @@ a{
 
 /* Team-css */
 
+
+.team{
+    background-color: rgb(243, 237, 237);
+}
+
 .wrapper{
     display: flex;
     justify-content: space-between;
