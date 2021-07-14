@@ -22,6 +22,8 @@ a{
     margin: 0 auto;
 }
 
+
+
 /* Banner-Css-Style */
 
 .banner{
@@ -119,7 +121,7 @@ a{
 
 
 
-  /*Banner Mobile Screen Width */
+  /*Banner Tablet Screen Width */
 
   @media only screen and (max-width: 768px){
       .banner{
@@ -215,19 +217,35 @@ a{
 }
 
 
-/* Card Mobile Screen Width */
+/* Card Tablet Screen Width */
 
 @media screen and (max-width:768px){
+
+    .card-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* Card Mobile Screen Width */
+
+@media screen and (max-width: 480px){
+
+    .container{
+        max-width: 400px;
+        margin: 0 auto;
+      }
 
     .card-wrapper{
         display: block;
     }
 
     .card{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 }
-
 
 
 
@@ -245,12 +263,30 @@ a{
    margin-bottom: 36px;
 }
 
-/* About Mobile Css Width */
+/* About Tablet Css Width */
 
 @media screen and (max-width:768px){
 
-    .full-width img{
-        width: 108%;
+    .banner-right{
+        width: 100%;
+    }
+
+    .banner-right img{
+        width: 100%;
+    }
+}
+
+
+/* About Mobile Css Width */
+
+@media screen and (max-width:480px){
+
+    .banner-right{
+        width: 100%;
+    }
+
+    .banner-right img{
+        width: 100%;
     }
 }
 
