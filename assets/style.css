@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 
+/* Global-Css-Style */
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -11,12 +12,17 @@ body{
 a{
     text-decoration: none;
 }
+
+
+.margin-top{
+    margin-top:80px;
+}
 .container{
     max-width: 1440px;
     margin: 0 auto;
 }
 
-/* Reactangle-css */
+/* Banner-Css-Style */
 
 .banner{
     top: 0;
@@ -113,7 +119,7 @@ a{
 
 
 
-  /* Mobile Screen Width */
+  /*Banner Mobile Screen Width */
 
   @media only screen and (max-width: 768px){
       .banner{
@@ -178,10 +184,6 @@ a{
 
 /* Card-Style */
 
-.margin-top{
-    margin-top:80px;
-}
-
 .card-wrapper{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -213,12 +215,10 @@ a{
 }
 
 
+/* Card Mobile Screen Width */
+
 @media screen and (max-width:768px){
 
-    .container{
-        max-width: 600px;
-        margin: 0 auto;
-      }
     .card-wrapper{
         display: block;
     }
@@ -233,8 +233,6 @@ a{
 
 /* About-section */
 
-
-
 .about h1{
     margin: 0;
     font-size: 48px;
@@ -247,31 +245,26 @@ a{
    margin-bottom: 36px;
 }
 
-
+/* About Mobile Css Width */
 
 @media screen and (max-width:768px){
 
-    .container{
-        max-width: 600px;
-        margin: 0 auto;
-      }
     .full-width img{
-        width: 100%;
+        width: 108%;
     }
 }
 
 
 
-/* Clints-css */
-
-.clints{
-    padding: 10px 0;
-    background: #f6f6f7;
-}
+/* Team-css */
 
 .wrapper{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+}
+
+.team-logo{
+    text-align: center;
 }
 
 .team-logo img{
@@ -288,12 +281,9 @@ a{
 }
 
 
-@media screen and (max-width:768px){
+/* Team Moble Css Width */
 
-    .container{
-        max-width: 600px;
-        margin: 0 auto;
-      }
+@media screen and (max-width:768px){
     .wrapper{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -313,21 +303,18 @@ a{
     letter-spacing: 5px;
 }
 
-
+/* Live Watch Css Width */
 @media screen and (max-width:768px){
 
-    .container{
-        max-width: 600px;
-        margin: 0 auto;
-      }
- 
     .live-wrapper iframe{
         width: 100%;
         height: 400px;
     }
 }
-/* Footer-css */
 
+
+
+/* Footer-css */
 
 .footer-item {
     text-align: center;
@@ -341,6 +328,7 @@ a{
 
 
 .social-icon span i{
+    cursor: pointer;
     background: #969BAB;
     padding: 10px 10px;
     border-radius: 50px;
