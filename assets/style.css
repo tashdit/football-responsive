@@ -188,6 +188,14 @@ a{
       .banner-left{
           width: 100%;
       }
+
+      .banner-right{
+        width: 100%;
+    }
+
+    .banner-right img{
+        width: 100%;
+    }
   }
 
 
@@ -282,25 +290,6 @@ a{
         width: 100%;
     }
 }
-
-
-/* About Mobile Css Width */
-
-@media screen and (max-width:480px){
-
-    .banner-left{
-        width: 100%;
-    }
-
-    .banner-right{
-        width: 100%;
-    }
-
-    .banner-right img{
-        width: 100%;
-    }
-}
-
 
 
 /* Team-css */
