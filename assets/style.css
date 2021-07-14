@@ -184,6 +184,13 @@ a{
   }
 
 
+  @media only screen and (max-width: 480px){
+      .banner-left{
+          width: 100%;
+      }
+  }
+
+
 /* Card-Style */
 
 .card-wrapper{
