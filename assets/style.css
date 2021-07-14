@@ -184,6 +184,9 @@ a{
   }
 
 
+  /*Banner Tablet Screen Width */
+
+
   @media only screen and (max-width: 480px){
       .banner-left{
           width: 100%;
